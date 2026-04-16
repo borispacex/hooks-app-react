@@ -71,6 +71,12 @@ export default defineConfig([
   },
 ])
 ```
+# APUNTES
+Tailwind (https://tailwindcss.com/)
+```
+npm install tailwindcss @tailwindcss/vite
+```
+
 
 # DEPLOY
 Edita tu vite.config.ts
@@ -80,7 +86,7 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/gifs-app-react/'
+  base: '/hooks-app-react/'
 })
 ```
 Crear dist
