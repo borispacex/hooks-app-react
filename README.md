@@ -76,7 +76,7 @@ Tailwind (https://tailwindcss.com/)
 ```
 npm install tailwindcss @tailwindcss/vite
 ```
-shadcn
+Shadcn (https://ui.shadcn.com/)
 ```
 npm install -D @types/node
 ```
@@ -84,8 +84,13 @@ npm install -D @types/node
 npx shadcn@latest init
 ```
 ```
-npx shadcn@latest
+npx shadcn@latest add
 ```
+Zod (https://zod.dev/)
+```
+npm install zod
+```
+
 # DEPLOY
 Edita tu vite.config.ts
 ```
