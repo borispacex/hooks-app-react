@@ -73,6 +73,16 @@ export default defineConfig([
 ```
 
 # DEPLOY
+Edita tu vite.config.ts
+```
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+
+export default defineConfig({
+  plugins: [react()],
+  base: '/gifs-app-react/'
+})
+```
 Crear dist
 ```
 npm run build
