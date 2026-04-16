@@ -76,8 +76,16 @@ Tailwind (https://tailwindcss.com/)
 ```
 npm install tailwindcss @tailwindcss/vite
 ```
-
-
+shadcn
+```
+npm install -D @types/node
+```
+```
+npx shadcn@latest init
+```
+```
+npx shadcn@latest
+```
 # DEPLOY
 Edita tu vite.config.ts
 ```
