@@ -77,6 +77,19 @@ Crear dist
 ```
 npm run build
 ```
+Deploy con github pages
+```
+npm install gh-pages --save-dev
+```
+Agrega scripts en package.json
+```
+"scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
+}
+```
 Ejecutar deploy
 ```
 npm run deploy
