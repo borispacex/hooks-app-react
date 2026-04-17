@@ -25,7 +25,9 @@
       "@/*": [
         "./src/*"
       ]
-    }
+    },
+    /* ignore */
+    "ignoreDeprecations": "6.0"
   },
   "include": ["src"]
 }
