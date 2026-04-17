@@ -3,8 +3,9 @@ import { createRoot } from 'react-dom/client'
 // import {HooksApp} from "./HooksApp.tsx";
 
 import './index.css'
-import {TasksApp} from "@/05-useReducer/TaskApp.tsx";
-import {ScrambleWords} from "@/05-useReducer/ScrambleWords.tsx";
+// import {TasksApp} from "@/05-useReducer/TaskApp.tsx";
+// import {ScrambleWords} from "@/05-useReducer/ScrambleWords.tsx";
+import {ScrambleWordsUseReducer} from "@/05-useReducer/ScrambleWordsUseReducer.tsx";
 // import {PokemonPage} from "./03-examples/PokemonPage.tsx";
 // import {FocusScreen} from "./04-useRef/FocusScreen.tsx";
 // import {TrafficLightWithEffect} from "./02-useEffect/TrafficLightWithEffect.tsx";
@@ -20,6 +21,7 @@ createRoot(document.getElementById('root')!).render(
     {/*  <PokemonPage />*/}
     {/*<FocusScreen />*/}
     {/*  <TasksApp />*/}
-      <ScrambleWords />
+    {/*  <ScrambleWords />*/}
+      <ScrambleWordsUseReducer />
   </StrictMode>,
 )
